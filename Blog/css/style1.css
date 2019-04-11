@@ -1,0 +1,46 @@
+/* Header, footer */
+header,footer{
+	background-color:red;
+}	
+main{
+   background-color:gold;
+}   
+/*menu*/
+#nav{
+	padding: 10px o 5px 0;
+	text-align: center;
+	list-style-type: none;
+	font-family: Arvo,serif;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+#nav li{
+	display:inline;
+	margin-left: 5px;
+}
+#nav a{
+	text-decoration: none;
+	color:gold;
+	padding: 5px 10px;
+	font-weight: bold;
+	display: inline-block;
+}
+#nav a:hover{
+	background: blue;
+	color: #000033;
+	border-radius:20px 5px;
+}
+ h1{
+    color:#5314d1;
+    text-align: center;
+ }
+h2{
+    color:##00FF00;
+    text-align: center;
+ }
+ .carousel a:hover {
+ background:#e8efe3;
+}
+.carousel{
+	
+}

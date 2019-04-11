@@ -1,0 +1,44 @@
+/* Header, footer */
+
+header, footer {
+  background-color:#FF0000 ;
+}
+h1{
+	color:#FFD700;
+	background-color: ##FF00FF;
+	font-style: cursive;
+}
+.pl{background: linear-gradient(45deg,yellow,lime );
+	padding:10px;
+	}
+	
+.k1{
+	width:700px;
+	border: 2px double blue;
+	border-radius:10px;
+}
+/*menu*/
+#nav{
+	padding: 10px o 5px 0;
+	text-align: center;
+	list-style-type: none;
+	font-family: Arvo,serif;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+#nav li{
+	display:inline;
+	margin-left: 5px;
+}
+#nav a{
+	text-decoration: none;
+	color:gold;
+	padding: 5px 10px;
+	font-weight: bold;
+	display: inline-block;
+}
+#nav a:hover{
+	background: blue;
+	color: #000033;
+	border-radius:20px 5px;
+}
